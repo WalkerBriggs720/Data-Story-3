@@ -1,21 +1,17 @@
-# Introduction {#intro}
+# SDG 4: Quality Education
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+SDG 4 is one of if not the most important Sustainable Development Goal. The goal of SDG 4 is to “ensure inclusive, equitable, and quality education for all while promoting lifelong learning opportunities” (Gongade et al. 2025). Not only is quality education incredibly important for children with developing brains, but it is also the foundation of breaking the poverty cycle. Quality education can boost an entire nation’s GDP while at the same time improving health and wellness conditions for all. Progress has been made in providing quality education, especially in developing countries yet more needs to be done. Since 2015, 109 million additional children are now enrolled in primary and secondary school (The Global Goals, n.d.). Though this statistic proves that progress has been made, a study conducted by the United Nations in 2023 found that around 272 million children were still not enrolled in primary or secondary school (The Global Goals, n.d.). Least developed countries experience the worst effects due to the lack of resources towards receiving and maintaining a quality education. One of the key drives of achieving SDG 4 is the training and utilization of quality teachers (Ydo 2022). 
+ 
+Within SDG 4, the United Nations has a multi targeted approach to quality education. The specific targets for SDG 4 and quality education are: (4.1) Free primary and secondary education, (4.2) Equal access to quality pre-primary education, (4.3) Equal access to affordable technical, vocational and higher
+education, (4.4) Increase the number of people with relevant skills for
+financial success, (4.5) Eliminate all discrimination in education, (4.6)
+Universal literacy and numeracy, (4.7) Education for sustainable development
+and global citizenship, (4.8) Build and upgrade inclusive and safe schools,
+(4.9) Expand higher education scholarships for developing countries, (4A)
+Increase the supply of quality teachers in developing countries (The Global Goals, n.d.).
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+There are many fascinating statistics that will help to provide data driven context. From 2015 to 2024, primary school completion rate increased from 85% to 88%. Lower secondary completion rate increased from 74% to 78% from 2015 to 2024. Also from 2015 to 2024, upper secondary completion rate increased from 53% to 60% (The Global Goals, n.d.). In 2019, 58% of children have achieved minimum reading proficiency globally and 44% reached the minimum mathematics proficiency (The Global Goals, n.d.). Though global education completion rates were increasing in 2019, they began to decrease from this point on with nearly a 15 point decline in mathematics proficiency and a 10 point decline in reading proficiency. This may be attributed to Covid-19 and the ripple effects that were sent throughout each nation and education system. Only 2 in 3 children in Sub-Saharan Africa complete primary school on-time and globally, only half of primary schools have the basic infrastructure to support children with disabilities. With this in mind, around 40% of countries have not reached gender parity in primary school education.
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
 
-You can write citations, too. For example,**bookdown** package was built on top of R Markdown and **knitr** [@xie2015]. *(Look in the file "bilbiography.bib" file to see how references can be added to your book.)*

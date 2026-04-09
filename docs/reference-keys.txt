@@ -1,8 +1,5 @@
-fig:nice-fig
-tab:nice-tab
-prerequisites
-intro
-another-chapter
-example-one
-example-two
-final-words
+sustainable-development-goals
+sdg-4-quality-education
+sdg-5-gender-equality
+conclusion
+references
